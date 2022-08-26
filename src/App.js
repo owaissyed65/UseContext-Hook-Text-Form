@@ -1,4 +1,3 @@
-import './App.css';
 import {
   BrowserRouter,
   Routes,
@@ -10,12 +9,15 @@ import About from './Components/About';
 import ContactUs from './Components/ContactUs';
 import Services from './Components/Services';
 import State from './context/State';
+import Alert from './Components/Alert';
 function App() {
+
   return (
     <div>
       <State>
       <BrowserRouter>
       <Navbar/>
+      <Alert />
       <Routes>
       <Route exact path="/" element={<Home/>}></Route>
       <Route exact path="/home" element={<Home/>}></Route>
