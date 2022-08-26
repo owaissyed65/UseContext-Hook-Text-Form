@@ -11,7 +11,7 @@
 }
 .navbar-brand{
     font-size: 1.8em !important;
-    color: #565387 !important;
+    color: #565387 ;
 }
 .navbar a{
     font-size: 1.3em;
@@ -21,6 +21,10 @@
 .navbar a:hover{
     color: #3498db !important;
     /* border-bottom: 2px solid red !important; */
+}
+/* These are for darkMode Hover */
+.extra:hover{
+    color: #3498db !important;
 }
 .menu-active{
     border-bottom: 2px solid red !important;
@@ -36,4 +40,46 @@
 }
 .btn-primary{
     border-radius: 20px;
+}
+.rel{
+    position: relative;
+    left: 100px ;
+}
+@media (max-width:1373px) and (min-width:1069px){
+    .rel{
+        
+        position: relative!important ;
+        left: 20px !important;
+    }
+}
+@media (max-width:1069px) and (min-width:992px){
+    .rel{
+        
+        position: relative!important ;
+        left: 20px !important;
+    }
+}
+@media (max-width:989px) and (min-width:234px){
+    .rel{
+        
+        position: relative!important ;
+        left: 0px !important;
+        top: 230px;
+    }
+}
+@media (max-width:234px) and (min-width:222px){
+    .rel{
+        
+        position: relative!important ;
+        left: 0px !important;
+        top: 250px;
+    }
+}
+@media (max-width:222px) and (min-width:150px){
+    .rel{
+        
+        position: relative!important ;
+        left: 0px !important;
+        top: 280px;
+    }
 }

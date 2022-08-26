@@ -11,7 +11,7 @@ const Alert = () => {
   return (
     <div style={{height:'50px'}}>
     {alert && text.length===0 && <div className={`alert alert-${alert.type}`} role="alert">
-  <strong>{capitalizeLetter(alert.type)==='Success'?'Congratulations':'Congratulations'||capitalizeLetter(alert.type)==='Secondary'?'Boom':'Boom'}</strong> ! {alert.msg}
+  <strong>{capitalizeLetter(alert.type)==='Success'?'Congratulations':'Congratulations'|| !capitalizeLetter(alert.type)==='dark'?'Boom':'Boom'}</strong> <p style={{display:"inline",fontSize:'22px' }}>!&nbsp;{alert.msg}</p>
 </div>}
     </div>
   )
