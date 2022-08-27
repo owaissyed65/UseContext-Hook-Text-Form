@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/UseContext-Hook-Text-Form%20/static/css/main.0f75e197.css",
+    "main.js": "/UseContext-Hook-Text-Form%20/static/js/main.a77454fd.js",
+    "static/js/787.aaac8cfd.chunk.js": "/UseContext-Hook-Text-Form%20/static/js/787.aaac8cfd.chunk.js",
+    "index.html": "/UseContext-Hook-Text-Form%20/index.html",
+    "main.0f75e197.css.map": "/UseContext-Hook-Text-Form%20/static/css/main.0f75e197.css.map",
+    "main.a77454fd.js.map": "/UseContext-Hook-Text-Form%20/static/js/main.a77454fd.js.map",
+    "787.aaac8cfd.chunk.js.map": "/UseContext-Hook-Text-Form%20/static/js/787.aaac8cfd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f75e197.css",
+    "static/js/main.a77454fd.js"
+  ]
+}
