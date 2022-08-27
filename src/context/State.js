@@ -2,6 +2,7 @@ import Context from './Context'
 import React, { useState } from 'react'
 
 const State = (props) => {
+  
   const [mode, setMode] = useState({
     text: "Enable Dark Mode",
     color: 'Black',
@@ -13,7 +14,7 @@ const State = (props) => {
 
   });
   const [text, setText] = useState("");
-  const [alert, setAlert] = useState();
+  const [alert, setAlert] = useState(null);
   const showAlert = (type, message) => {
     setAlert({
       msg: message,
@@ -65,15 +66,16 @@ const State = (props) => {
   // function to covert in upper case text form
   const handleUpperCase = () => {
     const newText = text.toUpperCase()
+    showAlert('success','Convert Into UpperCase');
     setText(newText)
-    showAlert('success', 'Convert Into UpperCase');
   }
 
   // function to covert in Lower case text form
   const handleLowerCase = () => {
     const newText = text.toLowerCase()
     setText(newText)
-    showAlert('success', 'Convert Into LowerCase');
+    console.log('Hello copy')
+    showAlert('success','Convert Into LowerCase');
   }
   // capitalize the function
   const handleCapatilize = () => {
